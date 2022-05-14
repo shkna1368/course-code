@@ -9,7 +9,6 @@ public class CrawlerDemoWithoutThread {
         List<SportNews> sportNewsList=new ArrayList<>();
 
 
-
         long startTime=System.currentTimeMillis();
 
 
