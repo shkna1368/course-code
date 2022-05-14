@@ -1,0 +1,7 @@
+Internet Protocol (IP) is a low-level
+routing protocol that breaks data into small packets and sends them to an address across a
+network, which does not guarantee to deliver said packets to the destination. Transmission
+Control Protocol (TCP) is a higher-level protocol that manages to robustly string together
+these packets, sorting and retransmitting them as necessary to reliably transmit data.
+A third protocol, User Datagram Protocol (UDP), sits next to TCP and can be used directly
+to support fast, connectionless, unreliable transport of packets.

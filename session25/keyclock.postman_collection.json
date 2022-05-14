@@ -1,0 +1,260 @@
+{
+	"variables": [],
+	"info": {
+		"name": "keyclock",
+		"_postman_id": "9cd7665d-44d7-6b83-7fe8-863d57d6e356",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get token",
+			"request": {
+				"url": "http://localhost:8080/auth/realms/SpringBootKeyClock/protocol/openid-connect/token",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "login-app",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "user1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get token for api",
+			"request": {
+				"url": "http://localhost:8080/auth/realms/mapsa/protocol/openid-connect/token",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "mapsaapp",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "f7b6e7cb-14f9-48ca-bb21-c9ef008813c5",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "shabab",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pas",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "add user",
+			"request": {
+				"url": "http://localhost:8080/auth/admin/realms/SpringBootKeyClock/users",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJyTGRSR1pGckItci0wRWZSb1NWWEpMUHB0enk4b3RGcllJclBnWE5fS2tjIn0.eyJleHAiOjE2MjUwOTA2ODAsImlhdCI6MTYyNTA5MDYyMCwianRpIjoiMGQ2ZTkwZjMtMWM2Ny00ZThhLTllMmQtYTk0N2VhODc3ZjY5IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL21hc3RlciIsInN1YiI6IjhlOGFiYjVjLTE1YjktNGNiOS1hN2RhLTI5NzZmYTI5ZGVjZSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImFkbWluLWNsaSIsImFjciI6IjEiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJjbGllbnRIb3N0IjoiMTI3LjAuMC4xIiwiY2xpZW50SWQiOiJhZG1pbi1jbGkiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1hZG1pbi1jbGkiLCJjbGllbnRBZGRyZXNzIjoiMTI3LjAuMC4xIn0.X0TUQ5_aiy3QVLnKPAUHql8vKaE0hYoXNP2-3fRbrRkL_DNSZem_Iu8qaSkIY3PR_85xOvHch7yknFiG2dCmLDuibXhIP3lAAz30Z9pLq9gIQtgou5FBlV4NHgEPRuDMk89MSfsGhm-vz2OeVj9-pMyvk7cXts8105PXD7LHPOmmhThgaToNw1blGjwGwid5AiAlsTDGHHunSTWs4yDfvDhxIHG0hC64MVvOxr4PF5Dl7AmWHT9aksdhPACm27v2X8Nh69CZvAI20JJ8uznmtGn7MeGi2RKfaXkI5rRqW4XeJU0oXT5eOaInGI_Nd3tDKuSqlSyVTuqIMoamKGyyag",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstName\":\"Sergey\",\"lastName\":\"Kargopolov\", \"email\":\"test@test.com\", \"enabled\":\"true\", \"username\":\"app-user2\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9090/users/superadmin",
+			"request": {
+				"url": "http://localhost:9090/users/superadmin",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJzczBNZ0Z5S0w5RG9iTUdCbm0tOVVVOURIY2VZZ3B5d0dGWllKMGRDMjFvIn0.eyJleHAiOjE2NDUwODI4NjQsImlhdCI6MTY0NTA4MjU2NCwianRpIjoiMmRhZTJhYzAtMDIxMS00NDdhLWFjYWUtMzY1NDViMTdmNTMwIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL21hcHNhIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjQ3ODk3MWFiLWFjNTUtNGZlMS05NzBhLWNiOTI5YTQ0YWFhYiIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1hcHNhYXBwIiwic2Vzc2lvbl9zdGF0ZSI6IjZjOGRkYjMxLWMzZTItNDA4OS1hNzQ3LTQyOTc0M2I1ZDU4OSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tYXBzYSIsIm9mZmxpbmVfYWNjZXNzIiwic3VwZXJhZG1pbiIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzaGFiYWIifQ.HcpJ-5LGbuV0RRbgEKugZeIFmOnBP9eC5_cyqg_5Lp8jWevdbTBrv75YHWbRZC_ZhePTf4Z_UeRH-DpdaV27Q3H2_yfwEmKTfJJF4E81DzNWvfpZd_OOd6s7fnn7W4nceLNxj0dMt65IPeMcfF9pCetJMxLHElUwhx08GlVzeBGpQLNGw3-TKCiW3BbmjmR3Hq_wg3nk4oCqkL6cWf1pETrxoR_rBdgb6aQwOuGPFwlsPGX6xf4UE5874EHckvvk-kZDHrq4-DtALvsyeC0K7RaByhRZ-gdXow8_5GoRvdteR5FPBiOn0R_xeTYTiWAm4oFLNPI5nwN4U1870vvS6A",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/auth/realms/master/protocol/openid-connect/token",
+			"request": {
+				"url": "http://localhost:8080/auth/realms/master/protocol/openid-connect/token",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "admin",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "admin-cli",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "948c64ed-fe98-4945-ae40-ad4f9f41907f",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/auth/admin/realms/mapsa/users",
+			"request": {
+				"url": "http://localhost:8080/auth/admin/realms/mapsa/users",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ0U0lMRGh0dHIzVy1Rc1MzYlZuZ1ZpaHpUdlhaZ21WNldpbGNpeHFtS0dvIn0.eyJleHAiOjE2NDUwNzgxOTksImlhdCI6MTY0NTA3ODEzOSwianRpIjoiMDZhZGY4ZjktY2FiOC00ZjA3LTk1ZWUtYjRhMDBiN2E0MmFiIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL21hc3RlciIsInN1YiI6IjM0ZjI4YWUxLWZmZWItNDVhYi04OWMxLTRiZjMyNmM1YjY1NCIsInR5cCI6IkJlYXJlciIsImF6cCI6ImFkbWluLWNsaSIsInNlc3Npb25fc3RhdGUiOiJhYmIzM2MyNC1kZWQ4LTRlNDMtOGRiMy05MTMyOGEzZjliYjEiLCJhY3IiOiIxIiwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiJ9.HUPUA39a4AqzR3E2EiTITFpue_MPjzpusOTq-blf3ifNjl2oT88dz-9CcGm-AVmNOpZhrHsS3nkAH_VzI1-YR8ZEuBIOVJSlPFV0qDc9KzTHYIwyUqhtvOOndZiimatbnsOqjtRZSnn9sNc2fe_7yHOdaZ8qcj3bqfSM9b9T1FLSWIhcr3V_sdgO1pS4WqP8G8DdXyucqdfK1m-hZ9okbdM2ACtuy9fhfuXTvGr1gKqSUOdx1eW5dVDrqlXmQHuMcalPsbm9xZVrkj2EBv2nW8sTdqODMP8cWnsYVrHJWaZziAQCOHKDs-hTd02gKESvjH7EZPM_zOK_fuXf1_ZvKg",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstName\":\"kim\",\"lastName\":\"kimfd\", \"email\":\"testjsdhfjh@test.com\", \"enabled\":\"true\", \"username\":\"shababMs2\",\n\t\n \"credentials\": [\n        {\n            \"type\": \"password\",\n            \"value\": \"rahul2\",\n            \"temporary\": false\n        }\n    ]\t\n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9090/users/test",
+			"request": {
+				"url": "http://localhost:9090/users/test",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9090/users/test",
+			"request": {
+				"url": "http://localhost:9090/users/test",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJzczBNZ0Z5S0w5RG9iTUdCbm0tOVVVOURIY2VZZ3B5d0dGWllKMGRDMjFvIn0.eyJleHAiOjE2NDUwODEwNjUsImlhdCI6MTY0NTA4MDc2NSwianRpIjoiYjhlODQ3ZTYtNmIzNy00NDhlLWI3NTAtNTIwNjk3ZDA3MWQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL21hcHNhIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjQ3ODk3MWFiLWFjNTUtNGZlMS05NzBhLWNiOTI5YTQ0YWFhYiIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1hcHNhYXBwIiwic2Vzc2lvbl9zdGF0ZSI6ImMwMDEwN2MwLTc3ODgtNDUyNS05MjRiLTRlMmNlM2IzNzhlMCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tYXBzYSIsIm9mZmxpbmVfYWNjZXNzIiwic3VwZXJhZG1pbiIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzaGFiYWIifQ.JHH6m07L_KaG3mQWTeb5ppHDB-NQa4ZhZnI4bCyl_ge2YdEzrB1cEgg7IOp4pc2NIPu8ioW61Z6t0_ljEA02_IrCMRGSV4JxO3yMxaBfdlK_DKkmPwaFD2-ESpK4jeGLaIE-1gxdj-m4cNsI0pm9_sWAypjZ_WGuVmwKRk29BhiHfEvDRBQFkTHjES8OetHHBQz14Eusau_7G8WIHpKkLh4k49mJFlS0KYcEb3r0KsM3FXzw_py8rnTOl135QRF3wM8VeBYlKBk6cpiAF4qC2byP-M1cbD1LblLZC5I6_WGqbr78mlK5mZe9MtVEgBJxXqiSMM_p_xwMRtlw8KpuhQ",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

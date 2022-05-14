@@ -1,0 +1,9 @@
+In its simplest form, an enumeration is a list of named constants that define a new data type
+and its legal values. Thus, an enumeration object can hold only a value that was declared in the
+list. Other values are not allowed. In other words, an enumeration gives you a way to explicitly
+specify the only values that a data type can legally have. Enumerations are commonly used
+to define a set of values that represent a collection of items. For example, you might use an
+enumeration to represent the error codes that can result from some operation, such as success,
+failed, or pending; or a list of the states that a device might be in, such as running, stopped, or
+paused. In early versions of Java, such values were defined using final variables, but
+enumerations offer a far superior approach.

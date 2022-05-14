@@ -1,0 +1,36 @@
+2022-02-12 08:38:10.651  INFO 6188 --- [restartedMain] com.shabab.microthree.Application        : Starting Application using Java 17 on DESKTOP-C78F4HM with PID 6188 (D:\projects\sampleProject\springopentelemethry\microthree\target\classes started by fg in D:\projects\sampleProject\springopentelemethry\microthree)
+2022-02-12 08:38:10.652  INFO 6188 --- [restartedMain] com.shabab.microthree.Application        : No active profile set, falling back to default profiles: default
+2022-02-12 08:38:10.698  INFO 6188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 08:38:10.699  INFO 6188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 08:38:11.459  INFO 6188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2023 (http)
+2022-02-12 08:38:11.465  INFO 6188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 08:38:11.465  INFO 6188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 08:38:11.513  INFO 6188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 08:38:11.514  INFO 6188 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
+2022-02-12 08:38:11.898  INFO 6188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-12 08:38:11.902  INFO 6188 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-12 08:38:11.946  INFO 6188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2023 (http) with context path ''
+2022-02-12 08:38:11.956  INFO 6188 --- [restartedMain] com.shabab.microthree.Application        : Started Application in 1.585 seconds (JVM running for 2.122)
+2022-02-12 08:38:12.326  INFO 6188 --- [RMI TCP Connection(1)-172.20.224.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 08:38:12.326  INFO 6188 --- [RMI TCP Connection(1)-172.20.224.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 08:38:12.327  INFO 6188 --- [RMI TCP Connection(1)-172.20.224.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-12 08:38:30.461  INFO 6188 --- [http-nio-2023-exec-1] com.shabab.microthree.Application        : COLLECTING  ID 6 FROM UPSTREAM SERVICE
+2022-02-12 08:38:30.477  WARN 6188 --- [http-nio-2023-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.shabab.microthree.ConflictException: tekrari]
+2022-02-12 08:38:32.761  INFO 6188 --- [http-nio-2023-exec-2] com.shabab.microthree.Application        : COLLECTING  ID 6 FROM UPSTREAM SERVICE
+2022-02-12 08:38:32.762  WARN 6188 --- [http-nio-2023-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.shabab.microthree.ConflictException: tekrari]
+2022-02-12 08:53:32.209  INFO 10104 --- [restartedMain] com.shabab.microthree.Application        : Starting Application using Java 17 on DESKTOP-C78F4HM with PID 10104 (D:\projects\sampleProject\springopentelemethry\microthree\target\classes started by fg in D:\projects\sampleProject\springopentelemethry\microthree)
+2022-02-12 08:53:32.209  INFO 10104 --- [restartedMain] com.shabab.microthree.Application        : No active profile set, falling back to default profiles: default
+2022-02-12 08:53:32.254  INFO 10104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 08:53:32.255  INFO 10104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 08:53:33.016  INFO 10104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2023 (http)
+2022-02-12 08:53:33.023  INFO 10104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 08:53:33.024  INFO 10104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 08:53:33.079  INFO 10104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 08:53:33.079  INFO 10104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 824 ms
+2022-02-12 08:53:33.509  INFO 10104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-12 08:53:33.516  INFO 10104 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-12 08:53:33.559  INFO 10104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2023 (http) with context path ''
+2022-02-12 08:53:33.570  INFO 10104 --- [restartedMain] com.shabab.microthree.Application        : Started Application in 1.63 seconds (JVM running for 2.151)
+2022-02-12 08:53:33.919  INFO 10104 --- [RMI TCP Connection(2)-172.20.224.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 08:53:33.920  INFO 10104 --- [RMI TCP Connection(2)-172.20.224.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 08:53:33.921  INFO 10104 --- [RMI TCP Connection(2)-172.20.224.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

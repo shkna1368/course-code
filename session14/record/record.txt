@@ -1,0 +1,20 @@
+A record is
+designed to provide an efficient, easy-to-use way to hold a group of values. For example, you
+might use a record to hold a set of coordinates; bank account numbers and balances; the
+length, width, and height of a shipping container; and so on.
+
+A key point about a record is that its data is held in private final fields and only getter
+methods are provided. Thus, the data that a record holds is immutable. In other words, once
+you construct a record, its contents cannot be changed.
+
+record recordName(component-list) {
+// optional body statements
+}
+
+This is made possible because the compiler
+will automatically provide the elements necessary to store the data; construct a record; create
+getter methods to access the data; and override toString( ), equals( ), and hashCode( )
+inherited from Object. As a result, for many uses of a record, no body is required because the
+record declaration itself fully defines the record.
+Here is an example of a simple record declaration:
+record Employee(String name, int idNum) {}

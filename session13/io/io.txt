@@ -1,0 +1,8 @@
+I/O (input/output) system, including file I/O.
+Java programs perform I/O through streams. A stream is an abstraction that either produces
+or consumes information
+
+Java defines two types of I/O streams: byte and character. Byte streams provide a convenient
+means for handling input and output of bytes. Byte streams are used, for example, when
+reading or writing binary data. Character streams provide a convenient means for handling
+input and output of characters.

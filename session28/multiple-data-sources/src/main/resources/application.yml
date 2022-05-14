@@ -1,0 +1,47 @@
+server:
+  port: 9999
+#Store card holder (cardholder name, zip)
+app:
+  datasource:
+
+     member:
+        url: jdbc:postgresql://localhost:5432/db1
+        username: postgres
+        password: Shkna1368
+        spring:
+           datasource:
+              driverClassName: postgresql.Driver
+
+     cardholder:
+        url:
+          jdbc: postgresql://localhost:5432/db2
+          username: postgres
+          password: Shkna1368
+          spring:
+            datasource:
+               driverClassName: postgresql.Driver
+
+     card:
+       url: jdbc:postgresql://localhost:5432/db3
+       username: postgres
+       password: Shkna1368
+       spring:
+         datasource:
+           driverClassName: postgresql.Driver
+
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+  show-sql: true
+  database: POSTGRESQL
+  properties:
+    hibernate:
+     jdbc:
+       lob:
+        non_contextual_creation: true
+
+

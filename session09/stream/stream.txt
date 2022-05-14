@@ -1,0 +1,8 @@
+Stream Basics
+Let’s begin by defining the term stream as it applies to the stream API: a stream is a conduit
+for data. Thus, a stream represents a sequence of objects. A stream operates on a data
+source, such as an array or a collection. A stream, itself, never provides storage for the data.
+It simply moves data, possibly filtering, sorting, or otherwise operating on that data in the
+process. As a general rule, however, a stream operation by itself does not modify the data
+source. For example, sorting a stream does not change the order of the source. Rather,
+sorting a stream results in the creation of a new stream that produces the sorted result.

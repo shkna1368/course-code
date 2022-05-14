@@ -1,0 +1,5 @@
+server:
+  port: 6060
+
+vaadin:
+  whitelisted-packages: com/shabab/vaadin/view

@@ -1,0 +1,17 @@
+com\mapsa\store\category\CategoryRepository.class
+com\mapsa\store\category\ICategoryService.class
+com\mapsa\store\category\CategoryDTO.class
+com\mapsa\store\category\CategoryController.class
+com\mapsa\store\product\ProductController.class
+com\mapsa\store\product\ProductMapper.class
+com\mapsa\store\category\CategoryService.class
+com\mapsa\store\Application.class
+com\mapsa\store\product\IProductService.class
+com\mapsa\store\product\ProductMapperImpl.class
+com\mapsa\store\category\Category.class
+com\mapsa\store\category\CatgoryMapperImpl.class
+com\mapsa\store\product\ProductService.class
+com\mapsa\store\product\ProductRepository.class
+com\mapsa\store\category\CatgoryMapper.class
+com\mapsa\store\product\Product.class
+com\mapsa\store\product\ProductDTO.class

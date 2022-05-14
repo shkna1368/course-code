@@ -1,0 +1,347 @@
+2022-02-12 17:58:18.289  INFO 17052 --- [main] com.mapsa.store.Application              : Starting Application using Java 17.0.1 on DESKTOP-G9H48O5 with PID 17052 (C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct\target\classes started by Java in C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct)
+2022-02-12 17:58:18.293  INFO 17052 --- [main] com.mapsa.store.Application              : No active profile set, falling back to default profiles: default
+2022-02-12 17:58:19.678  INFO 17052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-12 17:58:19.758  INFO 17052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2022-02-12 17:58:20.394  INFO 17052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-02-12 17:58:20.404  INFO 17052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 17:58:20.404  INFO 17052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-02-12 17:58:20.575  INFO 17052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 17:58:20.575  INFO 17052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2186 ms
+2022-02-12 17:58:20.901  INFO 17052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-12 17:58:20.975  INFO 17052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-12 17:58:21.163  INFO 17052 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-12 17:58:21.290  INFO 17052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-12 17:58:21.421  INFO 17052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-12 17:58:21.446  INFO 17052 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-12 17:58:21.500  INFO 17052 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-02-12 17:58:23.137  INFO 17052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-12 17:58:23.148  INFO 17052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 17:58:23.673  WARN 17052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-12 17:58:24.883  INFO 17052 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-12 17:58:24.983  INFO 17052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-02-12 17:58:25.007  INFO 17052 --- [main] com.mapsa.store.Application              : Started Application in 7.407 seconds (JVM running for 8.642)
+2022-02-12 17:58:25.016  INFO 17052 --- [main] com.mapsa.store.Application              : info log
+2022-02-12 17:58:25.016  WARN 17052 --- [main] com.mapsa.store.Application              : warn log
+2022-02-12 17:58:25.016 ERROR 17052 --- [main] com.mapsa.store.Application              : error log
+2022-02-12 17:58:25.547  INFO 17052 --- [RMI TCP Connection(3)-192.168.43.15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 17:58:25.547  INFO 17052 --- [RMI TCP Connection(3)-192.168.43.15] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 17:58:25.550  INFO 17052 --- [RMI TCP Connection(3)-192.168.43.15] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-12 19:01:17.295  INFO 17052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:01:17.298  INFO 17052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-12 19:01:17.302  INFO 17052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-12 19:01:28.398  INFO 2368 --- [main] com.mapsa.store.Application              : Starting Application using Java 17.0.1 on DESKTOP-G9H48O5 with PID 2368 (C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct\target\classes started by Java in C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct)
+2022-02-12 19:01:28.402  INFO 2368 --- [main] com.mapsa.store.Application              : No active profile set, falling back to default profiles: default
+2022-02-12 19:01:29.757  INFO 2368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-12 19:01:29.838  INFO 2368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2022-02-12 19:01:30.552  INFO 2368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-02-12 19:01:30.563  INFO 2368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 19:01:30.564  INFO 2368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-02-12 19:01:30.739  INFO 2368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 19:01:30.740  INFO 2368 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2270 ms
+2022-02-12 19:01:31.079  INFO 2368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-12 19:01:31.168  INFO 2368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-12 19:01:31.347  INFO 2368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-12 19:01:31.483  INFO 2368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-12 19:01:31.641  INFO 2368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-12 19:01:31.667  INFO 2368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-12 19:01:31.713  INFO 2368 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-02-12 19:01:33.390  INFO 2368 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-12 19:01:33.400  INFO 2368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:01:34.100  WARN 2368 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-12 19:01:35.529  INFO 2368 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-12 19:01:35.642  INFO 2368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-02-12 19:01:35.668  INFO 2368 --- [main] com.mapsa.store.Application              : Started Application in 7.888 seconds (JVM running for 8.94)
+2022-02-12 19:01:35.676  INFO 2368 --- [main] com.mapsa.store.Application              : info log
+2022-02-12 19:01:35.676  WARN 2368 --- [main] com.mapsa.store.Application              : warn log
+2022-02-12 19:01:35.676 ERROR 2368 --- [main] com.mapsa.store.Application              : error log
+2022-02-12 19:01:36.124  INFO 2368 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 19:01:36.125  INFO 2368 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 19:01:36.152  INFO 2368 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2022-02-12 19:03:54.472  INFO 2368 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:03:54.476  INFO 2368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-12 19:03:54.484  INFO 2368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-12 19:04:00.702  INFO 17092 --- [main] com.mapsa.store.Application              : Starting Application using Java 17.0.1 on DESKTOP-G9H48O5 with PID 17092 (C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct\target\classes started by Java in C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct)
+2022-02-12 19:04:00.706  INFO 17092 --- [main] com.mapsa.store.Application              : No active profile set, falling back to default profiles: default
+2022-02-12 19:04:02.055  INFO 17092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-12 19:04:02.141  INFO 17092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2022-02-12 19:04:02.826  INFO 17092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-02-12 19:04:02.835  INFO 17092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 19:04:02.836  INFO 17092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-02-12 19:04:03.055  INFO 17092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 19:04:03.057  INFO 17092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2280 ms
+2022-02-12 19:04:03.389  INFO 17092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-12 19:04:03.459  INFO 17092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-12 19:04:03.630  INFO 17092 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-12 19:04:03.745  INFO 17092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-12 19:04:03.879  INFO 17092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-12 19:04:03.905  INFO 17092 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-12 19:04:03.950  INFO 17092 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-02-12 19:04:05.625  INFO 17092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-12 19:04:05.635  INFO 17092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:04:06.312  WARN 17092 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-12 19:04:07.655  INFO 17092 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-12 19:04:07.767  INFO 17092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-02-12 19:04:07.791  INFO 17092 --- [main] com.mapsa.store.Application              : Started Application in 7.683 seconds (JVM running for 8.71)
+2022-02-12 19:04:07.798  INFO 17092 --- [main] com.mapsa.store.Application              : info log
+2022-02-12 19:04:07.799  WARN 17092 --- [main] com.mapsa.store.Application              : warn log
+2022-02-12 19:04:07.799 ERROR 17092 --- [main] com.mapsa.store.Application              : error log
+2022-02-12 19:04:08.094  INFO 17092 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 19:04:08.095  INFO 17092 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 19:04:08.097  INFO 17092 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-12 19:09:14.221  INFO 17092 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:09:14.224  INFO 17092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-12 19:09:14.230  INFO 17092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-12 19:09:20.517  INFO 16252 --- [main] com.mapsa.store.Application              : Starting Application using Java 17.0.1 on DESKTOP-G9H48O5 with PID 16252 (C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct\target\classes started by Java in C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct)
+2022-02-12 19:09:20.521  INFO 16252 --- [main] com.mapsa.store.Application              : No active profile set, falling back to default profiles: default
+2022-02-12 19:09:21.943  INFO 16252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-12 19:09:22.026  INFO 16252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2022-02-12 19:09:22.743  INFO 16252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-02-12 19:09:22.754  INFO 16252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 19:09:22.755  INFO 16252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-02-12 19:09:22.929  INFO 16252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 19:09:22.930  INFO 16252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2330 ms
+2022-02-12 19:09:23.261  INFO 16252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-12 19:09:23.329  INFO 16252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-12 19:09:23.543  INFO 16252 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-12 19:09:23.665  INFO 16252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-12 19:09:23.814  INFO 16252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-12 19:09:23.848  INFO 16252 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-12 19:09:23.898  INFO 16252 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-02-12 19:09:25.554  INFO 16252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-12 19:09:25.565  INFO 16252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:09:26.257  WARN 16252 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-12 19:09:27.701  INFO 16252 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-12 19:09:27.861  INFO 16252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-02-12 19:09:27.896  INFO 16252 --- [main] com.mapsa.store.Application              : Started Application in 7.994 seconds (JVM running for 9.077)
+2022-02-12 19:09:27.907  INFO 16252 --- [main] com.mapsa.store.Application              : info log
+2022-02-12 19:09:27.907  WARN 16252 --- [main] com.mapsa.store.Application              : warn log
+2022-02-12 19:09:27.907 ERROR 16252 --- [main] com.mapsa.store.Application              : error log
+2022-02-12 19:09:28.392  INFO 16252 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 19:09:28.393  INFO 16252 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 19:09:28.396  INFO 16252 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-02-12 19:09:41.844  INFO 16252 --- [http-nio-9090-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 288 ms
+2022-02-12 19:37:51.273  INFO 16252 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:37:51.277  INFO 16252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-12 19:37:51.286  INFO 16252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-12 19:38:02.289  INFO 15588 --- [main] com.mapsa.store.Application              : Starting Application using Java 17.0.1 on DESKTOP-G9H48O5 with PID 15588 (C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct\target\classes started by Java in C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct)
+2022-02-12 19:38:02.292  INFO 15588 --- [main] com.mapsa.store.Application              : No active profile set, falling back to default profiles: default
+2022-02-12 19:38:03.983  INFO 15588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-12 19:38:04.088  INFO 15588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2022-02-12 19:38:04.801  INFO 15588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-02-12 19:38:04.810  INFO 15588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 19:38:04.810  INFO 15588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-02-12 19:38:05.023  INFO 15588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 19:38:05.024  INFO 15588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2675 ms
+2022-02-12 19:38:05.389  INFO 15588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-12 19:38:05.459  INFO 15588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-12 19:38:05.631  INFO 15588 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-12 19:38:05.756  INFO 15588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-12 19:38:05.905  INFO 15588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-12 19:38:05.922  INFO 15588 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-12 19:38:05.972  INFO 15588 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-02-12 19:38:07.745  INFO 15588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-12 19:38:07.756  INFO 15588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:38:08.491  WARN 15588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-12 19:38:09.526  WARN 15588 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-12 19:38:10.875  INFO 15588 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-12 19:38:10.945  INFO 15588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-02-12 19:38:10.971  INFO 15588 --- [main] com.mapsa.store.Application              : Started Application in 9.295 seconds (JVM running for 10.516)
+2022-02-12 19:38:10.980  INFO 15588 --- [main] com.mapsa.store.Application              : info log
+2022-02-12 19:38:10.980  WARN 15588 --- [main] com.mapsa.store.Application              : warn log
+2022-02-12 19:38:10.980 ERROR 15588 --- [main] com.mapsa.store.Application              : error log
+2022-02-12 19:38:11.208  INFO 15588 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 19:38:11.209  INFO 15588 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 19:38:11.211  INFO 15588 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-12 19:38:11.238  WARN 15588 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:38:11.295  WARN 15588 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-G9H48O5:9090/actuator, healthUrl=http://DESKTOP-G9H48O5:9090/actuator/health, serviceUrl=http://DESKTOP-G9H48O5:9090/) at spring-boot-admin ([http://localhost:9090/instances]): 405 : "{"timestamp":"2022-02-12T16:08:11.259+00:00","status":405,"error":"Method Not Allowed","path":"/instances"}". Further attempts are logged on DEBUG level
+2022-02-12 19:38:20.997  WARN 15588 --- [http-nio-9090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:38:30.993  WARN 15588 --- [http-nio-9090-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:38:41.003  WARN 15588 --- [http-nio-9090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:38:50.995  WARN 15588 --- [http-nio-9090-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:39:01.007  WARN 15588 --- [http-nio-9090-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:39:10.999  WARN 15588 --- [http-nio-9090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:39:21.005  WARN 15588 --- [http-nio-9090-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:39:31.003  WARN 15588 --- [http-nio-9090-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:39:41.011  WARN 15588 --- [http-nio-9090-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:39:49.553  INFO 15588 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:39:49.562  INFO 15588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-12 19:39:49.586  INFO 15588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-12 19:39:54.056  INFO 2760 --- [main] com.mapsa.store.Application              : Starting Application using Java 17.0.1 on DESKTOP-G9H48O5 with PID 2760 (C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct\target\classes started by Java in C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct)
+2022-02-12 19:39:54.060  INFO 2760 --- [main] com.mapsa.store.Application              : No active profile set, falling back to default profiles: default
+2022-02-12 19:39:55.668  INFO 2760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-12 19:39:55.782  INFO 2760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 2 JPA repository interfaces.
+2022-02-12 19:39:56.533  INFO 2760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-02-12 19:39:56.544  INFO 2760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 19:39:56.545  INFO 2760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-02-12 19:39:56.756  INFO 2760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 19:39:56.756  INFO 2760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2625 ms
+2022-02-12 19:39:57.119  INFO 2760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-12 19:39:57.186  INFO 2760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-12 19:39:57.388  INFO 2760 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-12 19:39:57.528  INFO 2760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-12 19:39:57.667  INFO 2760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-12 19:39:57.686  INFO 2760 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-12 19:39:57.731  INFO 2760 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-02-12 19:39:59.368  INFO 2760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-12 19:39:59.380  INFO 2760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:40:00.104  WARN 2760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-12 19:40:01.178  WARN 2760 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-12 19:40:02.685  INFO 2760 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-02-12 19:40:02.754  INFO 2760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-02-12 19:40:02.784  INFO 2760 --- [main] com.mapsa.store.Application              : Started Application in 9.366 seconds (JVM running for 10.555)
+2022-02-12 19:40:02.793  INFO 2760 --- [main] com.mapsa.store.Application              : info log
+2022-02-12 19:40:02.793  WARN 2760 --- [main] com.mapsa.store.Application              : warn log
+2022-02-12 19:40:02.794 ERROR 2760 --- [main] com.mapsa.store.Application              : error log
+2022-02-12 19:40:03.012  INFO 2760 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 19:40:03.013  INFO 2760 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 19:40:03.016  INFO 2760 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-02-12 19:40:03.052  WARN 2760 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:40:03.108  WARN 2760 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-G9H48O5:9090/actuator, healthUrl=http://DESKTOP-G9H48O5:9090/actuator/health, serviceUrl=http://DESKTOP-G9H48O5:9090/) at spring-boot-admin ([http://localhost:9090/instances]): 405 : "{"timestamp":"2022-02-12T16:10:03.075+00:00","status":405,"error":"Method Not Allowed","path":"/instances"}". Further attempts are logged on DEBUG level
+2022-02-12 19:40:12.819  WARN 2760 --- [http-nio-9090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:40:22.793  INFO 2760 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:40:22.802  INFO 2760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-12 19:40:22.816  INFO 2760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-12 19:40:27.121  INFO 12824 --- [main] com.mapsa.store.Application              : Starting Application using Java 17.0.1 on DESKTOP-G9H48O5 with PID 12824 (C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct\target\classes started by Java in C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct)
+2022-02-12 19:40:27.125  INFO 12824 --- [main] com.mapsa.store.Application              : No active profile set, falling back to default profiles: default
+2022-02-12 19:40:28.696  INFO 12824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-12 19:40:28.800  INFO 12824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2022-02-12 19:40:29.536  INFO 12824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-02-12 19:40:29.547  INFO 12824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 19:40:29.548  INFO 12824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-02-12 19:40:29.771  INFO 12824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 19:40:29.772  INFO 12824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2590 ms
+2022-02-12 19:40:30.147  INFO 12824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-12 19:40:30.212  INFO 12824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-12 19:40:30.456  INFO 12824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-12 19:40:30.587  INFO 12824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-12 19:40:30.723  INFO 12824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-12 19:40:30.742  INFO 12824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-12 19:40:30.791  INFO 12824 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-02-12 19:40:32.480  INFO 12824 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-12 19:40:32.490  INFO 12824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:40:33.233  WARN 12824 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-12 19:40:34.346  WARN 12824 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-12 19:40:35.733  INFO 12824 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-02-12 19:40:35.825  INFO 12824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-02-12 19:40:35.854  INFO 12824 --- [main] com.mapsa.store.Application              : Started Application in 9.474 seconds (JVM running for 10.669)
+2022-02-12 19:40:35.862  INFO 12824 --- [main] com.mapsa.store.Application              : info log
+2022-02-12 19:40:35.863  WARN 12824 --- [main] com.mapsa.store.Application              : warn log
+2022-02-12 19:40:35.863 ERROR 12824 --- [main] com.mapsa.store.Application              : error log
+2022-02-12 19:40:36.066  INFO 12824 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 19:40:36.067  INFO 12824 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 19:40:36.069  INFO 12824 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-12 19:40:36.096  WARN 12824 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:40:36.162  WARN 12824 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-G9H48O5:9090/actuator, healthUrl=http://DESKTOP-G9H48O5:9090/actuator/health, serviceUrl=http://DESKTOP-G9H48O5:9090/) at spring-boot-admin ([http://localhost:9090/instances]): 405 : "{"timestamp":"2022-02-12T16:10:36.122+00:00","status":405,"error":"Method Not Allowed","path":"/instances"}". Further attempts are logged on DEBUG level
+2022-02-12 19:40:45.880  WARN 12824 --- [http-nio-9090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:40:55.886  WARN 12824 --- [http-nio-9090-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:41:05.891  WARN 12824 --- [http-nio-9090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:41:15.879  WARN 12824 --- [http-nio-9090-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:41:25.896  WARN 12824 --- [http-nio-9090-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:41:35.882  WARN 12824 --- [http-nio-9090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:41:45.886  WARN 12824 --- [http-nio-9090-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:41:55.880  WARN 12824 --- [http-nio-9090-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:42:05.889  WARN 12824 --- [http-nio-9090-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:42:15.874  WARN 12824 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:42:25.880  WARN 12824 --- [http-nio-9090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:42:35.886  WARN 12824 --- [http-nio-9090-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:42:45.887  WARN 12824 --- [http-nio-9090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:42:55.887  WARN 12824 --- [http-nio-9090-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:43:05.878  WARN 12824 --- [http-nio-9090-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:43:15.894  WARN 12824 --- [http-nio-9090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:43:25.882  WARN 12824 --- [http-nio-9090-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:43:35.896  WARN 12824 --- [http-nio-9090-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:43:45.879  WARN 12824 --- [http-nio-9090-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:43:55.881  WARN 12824 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:44:05.872  WARN 12824 --- [http-nio-9090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:44:15.295  INFO 12824 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:44:15.303  INFO 12824 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-12 19:44:15.324  INFO 12824 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-12 19:44:19.703  INFO 15864 --- [main] com.mapsa.store.Application              : Starting Application using Java 17.0.1 on DESKTOP-G9H48O5 with PID 15864 (C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct\target\classes started by Java in C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct)
+2022-02-12 19:44:19.706  INFO 15864 --- [main] com.mapsa.store.Application              : No active profile set, falling back to default profiles: default
+2022-02-12 19:44:21.235  INFO 15864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-12 19:44:21.359  INFO 15864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 2 JPA repository interfaces.
+2022-02-12 19:44:22.055  INFO 15864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-02-12 19:44:22.064  INFO 15864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 19:44:22.065  INFO 15864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-02-12 19:44:22.268  INFO 15864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 19:44:22.269  INFO 15864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2502 ms
+2022-02-12 19:44:22.648  INFO 15864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-12 19:44:22.725  INFO 15864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-12 19:44:22.917  INFO 15864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-12 19:44:23.046  INFO 15864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-12 19:44:23.181  INFO 15864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-12 19:44:23.199  INFO 15864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-12 19:44:23.246  INFO 15864 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-02-12 19:44:24.984  INFO 15864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-12 19:44:24.996  INFO 15864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:44:25.712  WARN 15864 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-12 19:44:26.793  WARN 15864 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-12 19:44:28.132  INFO 15864 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-02-12 19:44:28.208  INFO 15864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-02-12 19:44:28.234  INFO 15864 --- [main] com.mapsa.store.Application              : Started Application in 9.12 seconds (JVM running for 10.225)
+2022-02-12 19:44:28.242  INFO 15864 --- [main] com.mapsa.store.Application              : info log
+2022-02-12 19:44:28.243  WARN 15864 --- [main] com.mapsa.store.Application              : warn log
+2022-02-12 19:44:28.243 ERROR 15864 --- [main] com.mapsa.store.Application              : error log
+2022-02-12 19:44:28.469  INFO 15864 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 19:44:28.470  INFO 15864 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 19:44:28.472  INFO 15864 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-12 19:44:28.502  WARN 15864 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:44:28.614  WARN 15864 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-G9H48O5:9090/actuator, healthUrl=http://DESKTOP-G9H48O5:9090/actuator/health, serviceUrl=http://DESKTOP-G9H48O5:9090/) at spring-boot-admin ([http://localhost:9090/instances]): 405 : "{"timestamp":"2022-02-12T16:14:28.541+00:00","status":405,"error":"Method Not Allowed","path":"/instances"}". Further attempts are logged on DEBUG level
+2022-02-12 19:44:38.272  WARN 15864 --- [http-nio-9090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:44:48.274  WARN 15864 --- [http-nio-9090-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:44:58.276  WARN 15864 --- [http-nio-9090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:45:08.275  WARN 15864 --- [http-nio-9090-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:45:18.274  WARN 15864 --- [http-nio-9090-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:45:28.267  WARN 15864 --- [http-nio-9090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:45:38.268  WARN 15864 --- [http-nio-9090-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:45:48.273  WARN 15864 --- [http-nio-9090-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:45:58.263  WARN 15864 --- [http-nio-9090-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:46:08.253  WARN 15864 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:46:18.263  WARN 15864 --- [http-nio-9090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:46:27.954  INFO 15864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:46:27.962  INFO 15864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-12 19:46:27.976  INFO 15864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-12 19:50:04.122  INFO 13064 --- [main] com.mapsa.store.Application              : Starting Application using Java 17.0.1 on DESKTOP-G9H48O5 with PID 13064 (C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct\target\classes started by Java in C:\Users\Java\Desktop\MapsaBootCamp\session20\catproduct)
+2022-02-12 19:50:04.125  INFO 13064 --- [main] com.mapsa.store.Application              : No active profile set, falling back to default profiles: default
+2022-02-12 19:50:05.615  INFO 13064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-12 19:50:05.714  INFO 13064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2022-02-12 19:50:06.422  INFO 13064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-02-12 19:50:06.442  INFO 13064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-12 19:50:06.443  INFO 13064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-02-12 19:50:06.678  INFO 13064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-12 19:50:06.678  INFO 13064 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2489 ms
+2022-02-12 19:50:07.038  INFO 13064 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-12 19:50:07.107  INFO 13064 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-12 19:50:07.285  INFO 13064 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-12 19:50:07.406  INFO 13064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-12 19:50:07.539  INFO 13064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-12 19:50:07.556  INFO 13064 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-12 19:50:07.606  INFO 13064 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-02-12 19:50:09.265  INFO 13064 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-12 19:50:09.276  INFO 13064 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:50:09.956  WARN 13064 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-12 19:50:10.960  WARN 13064 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-12 19:50:12.240  INFO 13064 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-02-12 19:50:12.307  INFO 13064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-02-12 19:50:12.331  INFO 13064 --- [main] com.mapsa.store.Application              : Started Application in 8.812 seconds (JVM running for 9.85)
+2022-02-12 19:50:12.340  INFO 13064 --- [main] com.mapsa.store.Application              : info log
+2022-02-12 19:50:12.340  WARN 13064 --- [main] com.mapsa.store.Application              : warn log
+2022-02-12 19:50:12.340 ERROR 13064 --- [main] com.mapsa.store.Application              : error log
+2022-02-12 19:50:12.450  INFO 13064 --- [RMI TCP Connection(3)-192.168.43.15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 19:50:12.451  INFO 13064 --- [RMI TCP Connection(3)-192.168.43.15] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-12 19:50:12.453  INFO 13064 --- [RMI TCP Connection(3)-192.168.43.15] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-12 19:50:12.588  WARN 13064 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:50:12.640  WARN 13064 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=three-service, managementUrl=http://DESKTOP-G9H48O5:9090/actuator, healthUrl=http://DESKTOP-G9H48O5:9090/actuator/health, serviceUrl=http://DESKTOP-G9H48O5:9090/) at spring-boot-admin ([http://localhost:9090/instances]): 405 : "{"timestamp":"2022-02-12T16:20:12.609+00:00","status":405,"error":"Method Not Allowed","path":"/instances"}". Further attempts are logged on DEBUG level
+2022-02-12 19:50:22.377  WARN 13064 --- [http-nio-9090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:50:32.364  WARN 13064 --- [http-nio-9090-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:50:32.979  WARN 13064 --- [http-nio-9090-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-02-12 19:50:42.370  WARN 13064 --- [http-nio-9090-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:50:52.371  WARN 13064 --- [http-nio-9090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:51:02.383  WARN 13064 --- [http-nio-9090-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:51:12.365  WARN 13064 --- [http-nio-9090-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:51:22.371  WARN 13064 --- [http-nio-9090-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:51:32.349  WARN 13064 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:51:42.356  WARN 13064 --- [http-nio-9090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-12 19:51:53.992  INFO 13064 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-12 19:51:53.998  INFO 13064 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-12 19:51:54.006  INFO 13064 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

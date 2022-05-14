@@ -1,0 +1,23 @@
+server:
+  port: 8070
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/specifiction"
+    username: postgres
+    password: Shkna1368
+
+
+minio:
+  buckek:
+    name: test
+  default:
+    folder: "/"
+  access:
+   name: minioadmin
+   secret: minioadmin
+
+  url: http://127.0.0.1:9000

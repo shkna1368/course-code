@@ -1,0 +1,49 @@
+Java provides built-in support for multithreaded programming. A multithreaded program
+contains two or more parts that can run concurrently. Each part of such a program is called a
+thread, and each thread defines a separate path of execution. Thus, multithreading is a
+specialized form of multitasking.
+
+You are almost certainly acquainted with multitasking because it is supported by virtually
+all modern operating systems. However, there are two distinct types of multitasking:
+process-based and thread-based.
+A process is,
+in essence, a program that is executing. Thus, process-based multitasking is the feature that
+allows your computer to run two or more programs concurrently.
+In a thread-based multitasking environment, the thread is the smallest unit of dispatchable
+code. This means that a single program can perform two or more tasks simultaneously. For
+instance, a text editor can format text at the same time that it is printing, as long as these two
+actions are being performed by two separate threads. Thus, process-based multitasking deals
+with the “big picture,” and thread-based multitasking handles the details.
+Multitasking threads require less overhead than multitasking processes.
+Multithreading enables you to write efficient programs that make maximum use of the
+processing power available in the system.
+
+Java uses threads to enable the entire
+environment to be asynchronous. This helps reduce inefficiency by preventing the waste
+of CPU cycles.
+
+Creating a Thread
+
+NewThread
+• You can implement the Runnable interface.
+• You can extend the Thread class, itself.
+So, if you will not be overriding any
+
+of Thread’s other methods, it is probably best simply to implement Runnable. Also, by
+implementing Runnable, your thread class does not need to inherit Thread, making it free to
+inherit a different class. Ultimately, which approach to use is up to you. However, throughout
+
+join 
+This method waits until the thread on which it is called terminates. Its name comes from the
+concept of the calling thread waiting until the specified thread joins it.
+
+Thread Priorities
+MIN_PRIORITY and MAX_PRIORITY Currently, these values are 1 and 10
+NORM_PRIORITY 5
+
+
+• wait( ) tells the calling thread to give up the monitor and go to sleep until some other
+thread enters the same monitor and calls notify( ) or notifyAll( ).
+• notify( ) wakes up a thread that called wait( ) on the same object.
+• notifyAll( ) wakes up all the threads that called wait( ) on the same object. One of
+the threads will be granted access.

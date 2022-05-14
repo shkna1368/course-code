@@ -1,0 +1,10 @@
+com\mapsa\springvaadin\view\MapView.class
+com\mapsa\springvaadin\service\CarServiceProxy.class
+com\mapsa\springvaadin\dto\CarCategory.class
+com\mapsa\springvaadin\dto\Car.class
+com\mapsa\springvaadin\Application.class
+com\mapsa\springvaadin\service\CarService.class
+com\mapsa\springvaadin\view\CarCategoryView.class
+com\mapsa\springvaadin\view\MainView.class
+com\mapsa\springvaadin\view\CategoryCreatorView.class
+com\mapsa\springvaadin\view\Person.class

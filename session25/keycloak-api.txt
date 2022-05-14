@@ -1,0 +1,27 @@
+keycloak api:
+https://www.appsdeveloperblog.com/keycloak-requesting-token-with-password-grant/
+
+get token:
+
+curl --location --request POST 'http://localhost:8080/auth/realms/appsdeveloperblog/protocol/openid-connect/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'password=USER-PASSWORD' \
+--data-urlencode 'username=USER-NAME' \
+--data-urlencode 'client_id=photo-app-client' \
+--data-urlencode 'grant_type=password'
+
+Refreshing Access Token
+curl --location --request POST 'http://localhost:8080/auth/realms/appsdeveloperblog/protocol/openid-connect/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'grant_type=refresh_token' \
+--data-urlencode 'client_id=photo-app-code-flow-client' \
+--data-urlencode 'client_secret=3424193f-4728-4d19-8517-d450d7c6f2f5' \
+--data-urlencode 'refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlYWQyMDZmOS05MzczLTQ1OTAtOGQ4OC03YWNkYmZjYTU5MmMifQ.eyJleHAiOjE1OTQ0MDc1NTgsImlhdCI6MTU5NDQwNTc1OCwianRpIjoiY2Y4ZTNlMjctZjE0ZS00OTEzLWFkNjgtYjk4MDlmZWIxY2Q0IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nIiwic3ViIjoiMWRkZTNmYzMtYzZkYi00OWZiLTliM2QtNzk2NGM1YzA2ODdhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6InBob3RvLWFwcC1jb2RlLWZsb3ctcmVzdC1jbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiM2Y4ZWZmMTEtOGNlOC00OTZiLWE0NTQtZDliY2VkYjc1NDcyIiwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSJ9.dbfVSOhVmXiR8e1sRBid9P8yZyD0KgWNLTyd03gZKng'
+
+Create a New User
+curl --location --request POST 'http://localhost:8080/auth/realms/master/protocol/openid-connect/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'username=admin2' \
+--data-urlencode 'password=admin2' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'client_id=admin-cli'

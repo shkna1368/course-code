@@ -1,0 +1,6 @@
+Beginning with JDK 8, the classes called Optional, OptionalDouble, OptionalInt, and
+OptionalLong offer a way to handle situations in which a value may or may not be present.
+In the past, you would normally use the value null to indicate that no value is present.
+However, this can lead to null pointer exceptions if an attempt is made to dereference a null
+reference. As a result, frequent checks for a null value were necessary to avoid generating an
+exception. These classes provide a better way to handle such situations.

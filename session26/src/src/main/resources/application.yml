@@ -1,0 +1,5 @@
+server:
+  port: 9090
+
+vaadin:
+  whitelisted-packages: com/shabab/vaadin/view
