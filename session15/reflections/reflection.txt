@@ -1,0 +1,22 @@
+eflection is an API that is used to examine or modify the behavior of methods, classes, and interfaces at runtime.
+
+Java Reflection is a process of examining or modifying the run time behavior of a class at run time.
+
+The java.lang.Class class provides many methods that can be used to get metadata, examine and change the run time behavior of a class.
+
+The java.lang and java.lang.reflect packages provide classes for java reflection.
+The Reflection API is mainly used in:
+
+1-IDE (Integrated Development Environment) e.g., Eclipse, MyEclipse, NetBeans etc.
+2-Debugger
+3-Test Tools etc.
+
+Pros and Cons of Reflection
+Java reflection should always be used with caution. While the reflection provides a lot of advantages, it has some disadvantages too. Let's discuss the advantages first.
+
+Pros: Inspection of interfaces, classes, methods, and fields during runtime is possible using reflection, even without using their names during the compile time. It is also possible to call methods, instantiate a clear or to set the value of fields using reflection. It helps in the creation of Visual Development Environments and class browsers which provides aid to the developers to write the correct code.
+
+Cons: Using reflection, one can break the principles of encapsulation. It is possible to access the private methods and fields of a class using reflection. Thus, reflection may leak important data to the outside world, which is dangerous. For example, if one access the private members of a class and sets null value to it, then the other user of the same class can get the NullReferenceException, and this behaviour is not expected.
+
+Another demerit is the overhead in performance. Since the types in reflection are resolved dynamically, JVM (Java Virtual Machine) optimization cannot take place. Therefore, the operations performed by reflections are usually slow.
+
