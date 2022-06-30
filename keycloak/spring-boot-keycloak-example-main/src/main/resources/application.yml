@@ -1,0 +1,22 @@
+server:
+  port: 8095
+
+keycloak:
+  realm: mapsarealm
+  auth-server-url: http://localhost:8080/auth
+  resource: mapsaclient
+  public-client: true
+  bearer-only: true
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/emp_mg
+    username: postgres
+    password: Shkna1368
+
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
