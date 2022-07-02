@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "2ea6e5cc-c06c-47fc-a2fc-5402c8ff2ec2",
+		"name": "keycloak",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8095/user/employee",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "password",
+							"value": "userEmployee",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "userEmployee",
+							"type": "string"
+						},
+						{
+							"key": "scope",
+							"value": "openid",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "mapsaclient",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "http://localhost:8080/auth/realms/mapsarealm/protocol/openid-connect/token",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "password_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8095/user/employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"user",
+						"employee"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
