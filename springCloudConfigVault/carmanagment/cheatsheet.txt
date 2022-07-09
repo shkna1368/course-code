@@ -69,3 +69,4 @@ in postman POST:  http://localhost:8070/actuator/refresh    POST
 
 check api :  http://localhost:8070/greet
 
+admin ui :   http://localhost:8200/
