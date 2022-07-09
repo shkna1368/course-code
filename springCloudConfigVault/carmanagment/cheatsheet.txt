@@ -29,7 +29,6 @@ management:
 
 
 
-
 start server
 vault server -config ./vaultconfig.hcl
 
