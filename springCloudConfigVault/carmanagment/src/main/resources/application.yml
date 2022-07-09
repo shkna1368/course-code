@@ -9,3 +9,10 @@ spring:
     url: "jdbc:postgresql://localhost:5432/carmanagment"
     username: ${dbusername}
     password: ${dbpassword}
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+    
