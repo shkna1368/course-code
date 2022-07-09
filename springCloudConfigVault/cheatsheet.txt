@@ -7,6 +7,10 @@ https://www.techgeeknext.com/spring-boot/spring-cloud-vault
 vault server -config ./vaultconfig.hcl
  Initial Root Token: s.LqgTdZ5JkfiOXbFuFE8dA0tH
 set VAULT_ADDR=http://localhost:8200
+
+vault operator init
+
+
  set VAULT_TOKEN=s.LqgTdZ5JkfiOXbFuFE8dA0tH
 
 
