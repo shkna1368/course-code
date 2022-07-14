@@ -54,6 +54,12 @@ public class FileAttachmentController {
         return ResponseEntity.ok().build();
     }
 
+    @GetMapping("/v1/get-by-employee/{empId}")
+    public ResponseEntity<FileAttachmentDTO> getByEmployeeId(@PathVariable Long empId ){
 
+        FileAttachment fileAttachment=    service.getByEmployeeId(empId);
+        FileAttachmentDTO fileAttachmentDTO=mapper.toFileAttachmentDTO(fileAttachment);
+        return ResponseEntity.ok(fileAttachmentDTO);
+    }
 
 }

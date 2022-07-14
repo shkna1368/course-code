@@ -9,6 +9,7 @@ public interface IFamilyService {
      void delete(Long id);
      Family getById(Long id);
     List<Family> getAll();
+    List<Family> getAllByEmployee(Long empId);
 
 
 }

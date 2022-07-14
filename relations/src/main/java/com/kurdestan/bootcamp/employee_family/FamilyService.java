@@ -56,5 +56,13 @@ public class FamilyService implements IFamilyService {
         return (List<Family>) repository.findAll();
     }
 
+    @Override
+    public List<Family> getAllByEmployee(Long empId) {
+
+        Employee employee=employeeService.getById(empId);
+
+        return repository.findAllByEmployee(employee);
+    }
+
 
 }

@@ -1,5 +1,6 @@
 package com.kurdestan.bootcamp.file_attachment;
 
+import com.kurdestan.bootcamp.employee.Employee;
 import com.kurdestan.bootcamp.employee_family.Family;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
@@ -7,5 +8,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface FileAttachmentRepository extends PagingAndSortingRepository<FileAttachment,Long> {
 
-
+FileAttachment findByEmployee(Employee employee);
 }

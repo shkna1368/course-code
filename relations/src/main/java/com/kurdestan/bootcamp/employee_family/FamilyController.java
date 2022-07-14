@@ -54,5 +54,11 @@ public class FamilyController {
     }
 
 
+    @GetMapping("/v1/get-by-employee/{id}")
+    public ResponseEntity<List<FamilyDTO>> getByEmployeeId(@PathVariable Long id ){
 
+        List<Family> families=    service.getAllByEmployee(id);
+        List<FamilyDTO> familyDTOs=mapper.toFamilyDTOs(families);
+        return ResponseEntity.ok(familyDTOs);
+    }
 }

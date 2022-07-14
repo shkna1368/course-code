@@ -57,5 +57,12 @@ public class FileAttachmentService implements IFileAttchmentService {
         return (List<FileAttachment>) repository.findAll();
     }
 
+    @Override
+    public FileAttachment getByEmployeeId(Long empId) {
+
+      Employee emp=  employeeService.getById(empId);
+        return repository.findByEmployee(emp);
+    }
+
 
 }

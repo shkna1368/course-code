@@ -14,5 +14,5 @@ import java.util.List;
 @Repository
 public interface FamilyRepository extends PagingAndSortingRepository<Family,Long> {
 
-
+List<Family> findAllByEmployee(Employee employee);
 }
